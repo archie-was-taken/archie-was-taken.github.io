@@ -201,6 +201,22 @@ h1 {
   line-height: 1.8;
 }
 
+.site-footer {
+  padding: 1.2rem 1.5rem 2rem;
+  text-align: center;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.site-footer a {
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}
+
 .timeline {
   margin-top: 1.6rem;
   display: grid;
